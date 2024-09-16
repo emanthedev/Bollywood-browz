@@ -181,6 +181,7 @@ nav ul .dropdown {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 90px;
 }
 .stats-container {
   width: 95%;
@@ -200,6 +201,7 @@ nav ul .dropdown {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-top: -60px;
 }
 .stats-content div {
   background-color: #e2c554;
@@ -209,7 +211,7 @@ nav ul .dropdown {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   gap: 6px;
 }
 .stats-content i {
@@ -226,6 +228,218 @@ nav ul .dropdown {
   font-weight: 400;
   font-family: "Mulish", sans-serif;
 }
+
+.better-beauty {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+
+.beauty-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.beauty-content {
+  color: white;
+  width: 40%;
+  flex-direction: column;
+}
+
+.beauty-content div {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.beauty-content hr {
+  width: 500px;
+  color: rgb(170, 170, 170);
+}
+
+.beauty-container img {
+  height: 550px;
+  width: 40%;
+  object-fit: cover;
+}
+.beauty-content h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(226, 197, 84);
+  font-family: "Mulish", sans-serif;
+}
+
+.beauty-content h1 {
+  color: rgb(229, 167, 69);
+  font-size: 51px;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+
+.beauty-content p {
+  color: rgb(170, 170, 170);
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+}
+
+.beauty-content h3 {
+  color: rgb(226, 197, 84);
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.sevices-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services-content {
+  text-align: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.services-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  width: 70%;
+  height: 50%;
+  background-color: #e5a745;
+  border-radius: 10px;
+  padding: 10px 20px 20px 20px;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards img {
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.sevices-container h5 {
+  color: rgb(226, 197, 84);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+
+.sevices-container h1 {
+  color: rgb(255, 255, 255);
+  font-size: 51px;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+
+.sevices-container p {
+  color: rgb(170, 170, 170);
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+}
+
+.card h2 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 17px;
+  font-size: 400;
+  font-family: "Mulish", sans-serif;
+  line-height: 25px;
+  width: 90%;
+}
+.Experience {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.Experience-content {
+  background-color: #e5a745;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Experience-content div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.Experience-content hr {
+  background-color: white;
+  height: 80px;
+  width: 1px;
+  border: 0;
+}
+
+.Experience-content h1 {
+  color: black;
+  font-size: 38px;
+  font-weight: 500;
+  font-family: "Fraunces", serif;
+}
+
+.Experience-content h4 {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+.testimonials {
+  width: 100%;
+  color: white;
+}
+
+.testimonials-container{
+  width: 95%;
+}
+
 
 @media only screen and (max-width: 900px) {
   .bi-list {
@@ -293,5 +507,101 @@ nav ul .dropdown {
   .why-container h1 {
     font-size: 31px;
     font-weight: 400;
+  }
+  .stats-container img {
+    height: 240px;
+    width: 100%;
+  }
+  .stats-content {
+    flex-direction: column;
+    gap: 0;
+    margin-top: -90px;
+  }
+  .stats-content div {
+    width: 82.5%;
+    text-align: center;
+    flex-direction: column;
+  }
+  .better-beauty {
+    margin-top: 80px;
+  }
+  .beauty-container {
+    flex-direction: column;
+  }
+  .beauty-container img {
+    width: 100%;
+    height: 300px;
+  }
+  .beauty-content {
+    width: 100%;
+  }
+
+  .services-card {
+    flex-direction: column;
+    width: 95%;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 30px;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+  .cards {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .card {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    width: 90%;
+    height: 130px;
+    background-color: #e5a745;
+    margin-top: -80px;
+  }
+  .card h2 {
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  .services-content {
+    width: 95%;
+  }
+
+  .services-content h5 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .services-content h1 {
+    font-size: 30px;
+  }
+  .services-content p {
+    font-size: 15px;
+  }
+  .Experience-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap: 20px;
+    width: 100%;
+  }
+  .Experience-content hr {
+    width: 370px;
+    height: 1px;
+  }
+  .Experience-content h1 {
+    font-size: 24px;
+  }
+  .Experience-content h4 {
+    font-size: 12px;
   }
 }
