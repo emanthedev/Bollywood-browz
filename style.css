@@ -4,6 +4,7 @@
 }
 :root {
   --first: #e2c536;
+  --second: #e5a745;
 }
 body {
   background-color: black !important;
@@ -338,7 +339,7 @@ nav ul .dropdown {
 .card {
   width: 70%;
   height: 50%;
-  background-color: #e5a745;
+  background-color: var(--second);
   border-radius: 10px;
   padding: 10px 20px 20px 20px;
   margin-top: -80px;
@@ -392,11 +393,11 @@ nav ul .dropdown {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 140px;
 }
 
 .Experience-content {
-  background-color: #e5a745;
+  background-color: var(--second);
   width: 90%;
   display: flex;
   justify-content: space-around;
@@ -434,12 +435,179 @@ nav ul .dropdown {
 .testimonials {
   width: 100%;
   color: white;
+  margin-top: 90px;
 }
 
-.testimonials-container{
+.testimonials-container {
   width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.testimonial-card {
+  width: 50%;
+  text-align: center;
+}
+
+.testimonial-card div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.testimonials-container h2 {
+  color: var(--second);
+  font-size: 51px;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+
+.testimonials-container p {
+  color: rgb(170, 170, 170);
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
+  line-height: 33px;
+}
+.bi-quote {
+  color: #1d120b;
+  font-size: 150px;
+  cursor: pointer;
+  position: relative;
+  top: 195px;
+}
+.gallery {
+  width: 100%;
+  background-color: var(--second);
+  margin-top: 200px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.polar-imgs {
+  width: 70%;
+  margin-top: 50px;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-container img {
+  width: 26%;
+  object-fit: cover;
+}
+
+.makeup-img {
+  height: 400px;
+  padding-top: 98px;
+}
+
+.nail-art {
+  height: 497px;
+  object-position: left;
+}
+
+.eyebrow {
+  height: 350px;
+  padding-top: 148px;
+}
+
+.sugar-wax {
+  height: 321px;
+  padding-bottom: 98px;
+}
+
+.polar-img {
+  height: 301px;
+  padding-bottom: 128px;
+}
+
+.waxing-img {
+  height: 441px;
+}
+.gallery-container h4 {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+}
+
+.gallery-container h1 {
+  color: black;
+  font-size: 51px;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+.news-letter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 60px;
+}
+.news-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.news-content {
+  width: 58%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--second);
+}
+
+.news-content h1 {
+  color: black;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+}
+.news-content label {
+  background-color: #e08d55;
+  color: #5a3822;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 225px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+}
+
+.news-content button {
+  border: 0px;
+  height: 55px;
+  width: 130px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+}
+
+.news-content button:hover {
+  background-color: var(--second);
+  color: white;
+  border: 1px solid white;
+}
 
 @media only screen and (max-width: 900px) {
   .bi-list {
@@ -603,5 +771,70 @@ nav ul .dropdown {
   }
   .Experience-content h4 {
     font-size: 12px;
+  }
+  .testimonial-card {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .testimonial-card h2 {
+    font-size: 35px;
+    bottom: 10px;
+  }
+  .testimonial-card p {
+    font-size: 20px;
+    top: 240px;
+  }
+  .bi-quote {
+    font-size: 100px;
+    top: 160px;
+  }
+
+  .polar-imgs {
+    width: 100%;
+  }
+
+  .gallery img {
+    width: 100%;
+    padding: 0px;
+  }
+  .makeup-img {
+    height: 230px;
+  }
+  .polar-img {
+    height: 200px;
+  }
+  .eyebrow {
+    height: 230px;
+  }
+  .sugar-wax {
+    height: 260px;
+  }
+  .nail-art {
+    height: 280px;
+  }
+  .waxing-img {
+    height: 280px;
+  }
+  .news-letter {
+    margin-top: 0px;
+  }
+  .news-container {
+    width: 100%;
+  }
+  .news-content {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+  }
+  .news-content label {
+    width: 90%;
+  }
+  .news-content button {
+    width: 94%;
+  }
+  .news-content h1 {
+    font-size: 30px;
+    font-weight: 500;
   }
 }
